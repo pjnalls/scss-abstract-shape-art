@@ -27,3 +27,14 @@
     top: -45vmin;
   }
 }
+
+.large-square {
+  position: absolute;
+  width: 100vmin;
+  height: 75vmin;
+  background: linear-gradient(to right, $violet-dark, $violet);
+  border: 0.5vmin solid $turquoise-dark-blue;
+  transform: rotate(-33deg);
+  top: 95vmin;
+  left: 22vmin;
+}
