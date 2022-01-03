@@ -97,7 +97,7 @@ body {
   height: 25vmin;
   border-radius: 50%;
   top: -15vmin;
-  left: 100vmin;
+  right: -67vmin;
 }
 
 .canvas .rose-spheres::after {
@@ -130,7 +130,7 @@ body {
   width: 24vmin;
   background: #2f7a9f;
   border: 0.5vmin solid #13597f;
-  left: 119vmin;
+  right: -67vmin;
   top: -33vmin;
 }
 
@@ -141,7 +141,41 @@ body {
   width: 6vmin;
   background: #2f7a9f;
   border: 0.5vmin solid #13597f;
-  left: 125vmin;
+  right: -60vmin;
   top: -45vmin;
+}
+
+.canvas .bars {
+  position: absolute;
+  background: -webkit-gradient(linear, left top, left bottom, from(#829acf), to(#425a8f));
+  background: linear-gradient(to bottom, #829acf, #425a8f);
+  width: 15vmin;
+  height: 120vmin;
+  -webkit-transform: rotate(-33deg);
+          transform: rotate(-33deg);
+  left: 100vmin;
+  top: 5vmin;
+  border: 0.5vmin solid #425a8f;
+}
+
+.canvas .bars::before {
+  content: "";
+  position: absolute;
+  background: #829acf;
+  width: 10vmin;
+  height: 45vmin;
+  border: 0.5vmin solid #13597f;
+  left: -18vmin;
+}
+
+.canvas .bars::after {
+  content: "";
+  position: absolute;
+  background: -webkit-gradient(linear, left top, left bottom, from(#13597f), to(#829acf));
+  background: linear-gradient(to bottom, #13597f, #829acf);
+  width: 3.33vmin;
+  height: 52.5vmin;
+  border: 0.5vmin solid #13597f;
+  left: -25vmin;
 }
 /*# sourceMappingURL=main.css.map */
