@@ -1,0 +1,28 @@
+.bars {
+  position: absolute;
+  background: linear-gradient(to bottom, $plato-grey, $plato-grey-dark);
+  width: 15vmin;
+  height: 120vmin;
+  transform: rotate(-33deg);
+  left: 100vmin;
+  top: 5vmin;
+  border: 0.5vmin solid $plato-grey-dark;
+  &::before {
+    content: "";
+    position: absolute;
+    background: $plato-grey;
+    width: 10vmin;
+    height: 45vmin;
+    border: 0.5vmin solid $turquoise-dark-blue;
+    left: -18vmin;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    background: linear-gradient(to bottom, $turquoise-dark-blue, $plato-grey);
+    width: 3.33vmin;
+    height: 52.5vmin;
+    border: 0.5vmin solid $turquoise-dark-blue;
+    left: -25vmin;
+  }
+}
