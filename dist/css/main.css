@@ -114,11 +114,33 @@ body {
 
 .canvas .squares {
   position: absolute;
-  height: 20vmin;
-  width: 20vmin;
+  height: 17vmin;
+  width: 17vmin;
   background: #2f7a9f;
   border: 0.5vmin solid #13597f;
   left: 33vmin;
-  top: 10vmin;
+  top: 50vmin;
+}
+
+.canvas .squares::before {
+  content: "";
+  position: absolute;
+  height: 6vmin;
+  width: 24vmin;
+  background: #2f7a9f;
+  border: 0.5vmin solid #13597f;
+  left: 119vmin;
+  top: -33vmin;
+}
+
+.canvas .squares::after {
+  content: "";
+  position: absolute;
+  height: 4vmin;
+  width: 6vmin;
+  background: #2f7a9f;
+  border: 0.5vmin solid #13597f;
+  left: 125vmin;
+  top: -45vmin;
 }
 /*# sourceMappingURL=main.css.map */
