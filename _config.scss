@@ -11,3 +11,19 @@ $violet: #7b30cf;
 $purple: #4b23c5;
 $plato-grey: #829acf;
 $plato-grey-dark: #425a8f;
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
