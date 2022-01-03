@@ -111,4 +111,14 @@ body {
   top: 15vmin;
   left: -15vmin;
 }
+
+.canvas .squares {
+  position: absolute;
+  height: 20vmin;
+  width: 20vmin;
+  background: #2f7a9f;
+  border: 0.5vmin solid #13597f;
+  left: 33vmin;
+  top: 10vmin;
+}
 /*# sourceMappingURL=main.css.map */
