@@ -21,8 +21,8 @@ body {
 
 .canvas {
   position: relative;
-  background: -webkit-gradient(linear, left top, right bottom, from(#4b23c5), color-stop(#f7d56a), color-stop(#f7d56a), to(#cea53f));
-  background: linear-gradient(to right bottom, #4b23c5, #f7d56a, #f7d56a, #cea53f);
+  background: -webkit-gradient(linear, left top, right bottom, from(#4b23c5), color-stop(#f7d56a), color-stop(#f7d56a), to(#ae851f));
+  background: linear-gradient(to right bottom, #4b23c5, #f7d56a, #f7d56a, #ae851f);
   width: 100vw;
   height: 100vh;
 }
