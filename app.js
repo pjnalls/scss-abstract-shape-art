@@ -10,12 +10,17 @@ const main = () => {
     goldSpheres = createDiv("gold-spheres"),
     roseSpheres = createDiv("rose-spheres"),
     squares = createDiv("squares"),
-    bars = createDiv("bars");
+    bars = createDiv("bars"),
+    largeSquare = createDiv("large-square"),
+    falls = createDiv("falls");
 
   canvas.appendChild(goldSpheres);
   canvas.appendChild(roseSpheres);
   canvas.appendChild(squares);
   canvas.appendChild(bars);
+  canvas.appendChild(largeSquare);
+  canvas.appendChild(falls);
+
   root.appendChild(canvas);
 };
 
