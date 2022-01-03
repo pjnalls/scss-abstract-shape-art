@@ -2,11 +2,11 @@
 
 .canvas {
   position: relative;
-  background: linear-gradient(to right bottom, $purple, $gold, $gold-dark);
+  background: linear-gradient(to right bottom, $violet-dark, $gold, $gold-dark);
   width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  @import "gold-spheres";
+  @import "spheres";
 }
