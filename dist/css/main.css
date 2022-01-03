@@ -21,9 +21,94 @@ body {
 
 .canvas {
   position: relative;
-  background: -webkit-gradient(linear, left top, right bottom, from(#4b23c5), color-stop(#f7d56a), to(#ae851f));
-  background: linear-gradient(to right bottom, #4b23c5, #f7d56a, #ae851f);
+  background: -webkit-gradient(linear, left top, right bottom, from(#2b23a5), color-stop(#f7d56a), to(#ae851f));
+  background: linear-gradient(to right bottom, #2b23a5, #f7d56a, #ae851f);
   width: 100vw;
   height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.canvas .gold-spheres {
+  position: absolute;
+  background: -webkit-gradient(linear, left top, right bottom, from(#f7d56a), to(#ae851f));
+  background: linear-gradient(to right bottom, #f7d56a, #ae851f);
+  border: 0.5vmin solid #ae851f;
+  width: 9vmin;
+  height: 9vmin;
+  border-radius: 50%;
+  top: 20vmin;
+  left: 20vmin;
+}
+
+.canvas .gold-spheres::before {
+  content: "";
+  position: absolute;
+  background: -webkit-gradient(linear, left top, right bottom, from(#f7d56a), to(#ae851f));
+  background: linear-gradient(to right bottom, #f7d56a, #ae851f);
+  border: 0.5vmin solid #ae851f;
+  width: 14vmin;
+  height: 14vmin;
+  border-radius: 50%;
+  top: 50vmin;
+  left: -10vmin;
+}
+
+.canvas .gold-spheres::after {
+  content: "";
+  position: absolute;
+  background: -webkit-gradient(linear, left top, right bottom, from(#f7d56a), to(#ae851f));
+  background: linear-gradient(to right bottom, #f7d56a, #ae851f);
+  border: 0.5vmin solid #ae851f;
+  width: 4vmin;
+  height: 4vmin;
+  border-radius: 50%;
+  top: 10vmin;
+  left: 90vmin;
+}
+
+.canvas .rose-spheres {
+  position: absolute;
+  background: -webkit-gradient(linear, left top, right bottom, from(#9b50ef), to(#2b23a5));
+  background: linear-gradient(to right bottom, #9b50ef, #2b23a5);
+  border: 0.5vmin solid #2b23a5;
+  width: 2vmin;
+  height: 2vmin;
+  border-radius: 50%;
+  top: 25vmin;
+  left: 40vmin;
+}
+
+.canvas .rose-spheres::before {
+  content: "";
+  position: absolute;
+  background: -webkit-gradient(linear, left top, right bottom, from(#9b50ef), to(#2b23a5));
+  background: linear-gradient(to right bottom, #9b50ef, #2b23a5);
+  border: 0.5vmin solid #2b23a5;
+  width: 25vmin;
+  height: 25vmin;
+  border-radius: 50%;
+  top: -15vmin;
+  left: 100vmin;
+}
+
+.canvas .rose-spheres::after {
+  content: "";
+  position: absolute;
+  background: -webkit-gradient(linear, left top, right bottom, from(#9b50ef), to(#2b23a5));
+  background: linear-gradient(to right bottom, #9b50ef, #2b23a5);
+  border: 0.5vmin solid #2b23a5;
+  width: 0.5vmin;
+  height: 0.5vmin;
+  border-radius: 50%;
+  top: 15vmin;
+  left: -15vmin;
 }
 /*# sourceMappingURL=main.css.map */
