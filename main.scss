@@ -1,6 +1,7 @@
 @import "config";
 
 .canvas {
+  position: relative;
   background: linear-gradient(
     to right bottom,
     $purple,
@@ -8,4 +9,6 @@
     $gold,
     $gold-dark
   );
+  width: 100vw;
+  height: 100vh;
 }
