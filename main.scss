@@ -1,0 +1,11 @@
+@import "config";
+
+.canvas {
+  background: linear-gradient(
+    to right bottom,
+    $purple,
+    $gold,
+    $gold,
+    $gold-dark
+  );
+}
