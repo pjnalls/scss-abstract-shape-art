@@ -9,11 +9,13 @@ const main = () => {
     canvas = createDiv("canvas"),
     goldSpheres = createDiv("gold-spheres"),
     roseSpheres = createDiv("rose-spheres"),
-    squares = createDiv("squares");
+    squares = createDiv("squares"),
+    bars = createDiv("bars");
 
   canvas.appendChild(goldSpheres);
   canvas.appendChild(roseSpheres);
   canvas.appendChild(squares);
+  canvas.appendChild(bars);
   root.appendChild(canvas);
 };
 
